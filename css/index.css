@@ -1,10 +1,73 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+
 header {
     padding: 50px;
     background-color: rgb(44, 44, 195);
+    border: 3px 3px 3px 3px;
+    border-radius: 20px;
+    -webkit-box-shadow: 12px 14px 19px 0px rgba(0,0,0,0.6); 
+    box-shadow: 12px 14px 19px 0px rgba(0,0,0,0.6);
 }
+
 body {
     background-color: grey;
 }
+
+.btn_nav {
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 10px;
+    
+}
+
+.btn_nav:hover {
+    background-color: blue;
+}
+
+#art1 {
+    margin-top: 10px;
+    padding-bottom: 1200px;
+    border: 3px 3px 3px 3px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.title {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+h3 {
+    color: red;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.box {
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background-color: bisque;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-right: 40px;
+    -webkit-box-shadow: 2px 6px 19px 0px rgba(0,0,0,0.6); 
+    box-shadow: 2px 6px 19px 0px rgba(0,0,0,0.6);
+}
+
+.box2 {
+    box-sizing: border-box;
+    background-color: bisque;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 51%;
+    -webkit-box-shadow: 2px 6px 19px 0px rgba(0,0,0,0.6); 
+    box-shadow: 2px 6px 19px 0px rgba(0,0,0,0.6);
+}
+
