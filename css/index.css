@@ -13,18 +13,34 @@ header {
 }
 
 body {
-    background-color: grey;
+    background: linear-gradient(-45deg, #ffffff, #ff0000, #ffffff, #ff0000);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .btn_nav {
     margin-top: 10px;
     background-color: red;
     border-radius: 10px;
+    border-color: blue;
     
 }
 
 .btn_nav:hover {
     background-color: blue;
+    border-color: red;
 }
 
 #art1 {
@@ -32,7 +48,9 @@ body {
     padding-bottom: 1200px;
     border: 3px 3px 3px 3px;
     border-radius: 20px;
-    background-color: aliceblue;
+    background-image: url(../media/Scratch.png);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .title {
